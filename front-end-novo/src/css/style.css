@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
 }
 
 .topo {
@@ -10,7 +11,7 @@
 }
 
 .topo h1 {
-    margin-left: 450px;
+    text-align: center;
     top: 40px;
     position: relative;
     font-size: 65px;

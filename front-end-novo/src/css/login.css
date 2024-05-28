@@ -1,0 +1,106 @@
+body {
+    background: #292929;
+    overflow: hidden;
+}
+
+.containerLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 180px;
+}
+
+.cardLogin {
+    border: 3px solid red;
+    height: 270px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    z-index: 3;
+}
+
+.imgIconEsq {
+    height: 700px;
+    width: 900px;
+    position: relative;
+    left: 200px;
+}
+
+.imgIconDir {
+    height: 700px;
+    width: 900px;
+    position: relative;
+    right: 200px;
+} 
+
+.divImg {
+    z-index: 1;
+}
+
+.inputEmail {
+    background: #292929;
+    width: 400px;
+    margin: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 1px red solid;
+    padding: 8px;
+}
+
+.inputSenha {
+    background: #292929;
+    width: 400px;
+    margin: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 1px red solid;
+    padding: 8px;
+
+}
+
+.inputEmail::placeholder, .inputSenha::placeholder {
+    font-size: 14px;
+}
+
+.bemVindo {
+    color: white;
+    text-align: center;
+    font-size: 38px;
+    margin-top: 20px;
+}
+
+.divEmail {
+    margin-top: 10px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.divSenha {
+    margin-bottom: 50px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.submitButton {
+    position: absolute;
+    background-image: url("/src/img/iconLogin-removebg-preview.png");
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border: none;
+    background-color: #292929;
+    cursor: pointer;
+    bottom: 240px;
+    left: 850px;
+}
