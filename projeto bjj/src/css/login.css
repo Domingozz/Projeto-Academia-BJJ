@@ -123,6 +123,26 @@ body {
 }
 
 
+.inputGeral::placeholder {
+    color: white; /* Altere para a cor desejada */
+}
+
+.inputGeral:-moz-placeholder {
+    color: white; /* Altere para a cor desejada */
+}
+
+.inputGeral:-ms-input-placeholder {
+    color: white; /* Altere para a cor desejada */
+}
+
+.inputGeral::-ms-input-placeholder {
+    color: white; /* Altere para a cor desejada */
+}
+
+.inputGeral{
+    color: white;
+}
+
 .submitButton {
     position: absolute;
     background-image: url("/src/img/iconLogin-removebg-preview.png");
