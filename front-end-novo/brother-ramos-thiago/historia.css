@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.topo {
+    background-color: #942613;
+    height: 150px;
+}
+
+.topo h1 {
+    margin-left: 450px;
+    top: 40px;
+    position: relative;
+    font-size: 65px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    letter-spacing: 4px;
+    
+}
+
+.imagem-esquerda {
+    top: -200px;
+    left: 20px;
+    position: relative;
+}
+
+.imagem-direita {
+    top: -200px;
+    left: 650px;
+    position: relative;
+}
+
+.perfil {
+    right: 40px;
+    top: 65px;
+    position: absolute; 
+}
+
+.menu {
+    left: 30px;
+    top: 65px;
+    position: absolute;
+}
+.links-mae {
+    background-color: #000;
+    height: 50px;
+}
+
+.links {
+    margin-left: 10%;
+    margin-top: 12px;
+    position:absolute;
+}
+
+.links a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 170px;
+    font-size: 17.5px;
+
+}
+
+.textos {
+    text-align: left;
+    margin-top: 25px;
+    margin-left: 750px;
+    margin-bottom: 50px;
+    position: relative;
+    color: #fff;
+}
+
+.logo {
+    position: absolute;
+    top: 300px;
+}
+
+body {
+    background-color: #292929;
+}
+
+.linha-divisoria {
+    height: 400px;
+    width: 2px;
+    background-color: #942613;
+    top: 300px;
+    left: 600px;
+    position: absolute;
+}
+
+.linha-aba {
+    background-color: #942613;
+    height: 3px;
+    width: 110px;
+    top: 35px;
+    left: 390px;
+    position: absolute;
+}
