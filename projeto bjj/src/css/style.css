@@ -35,9 +35,11 @@
     position: absolute;
     cursor: pointer;
 }
+
 .links-mae {
     background-color: #000;
     height: 50px;
+    z-index: 3;
 }
 
 .links {
@@ -52,7 +54,6 @@
     font-family: "Montserrat", sans-serif;
     margin-left: 170px;
     font-size: 17.5px;
-
 }
 
 .slider {
@@ -151,4 +152,9 @@
 }
 #radio4:checked ~ .navigation-auto .auto-btn4{
     background-color: #fff;
+}
+
+
+.links {
+    z-index: 3;
 }
