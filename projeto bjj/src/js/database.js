@@ -24,7 +24,10 @@ const emailInput = document.getElementById('emailInput');
 const phoneInput = document.getElementById('phoneInput');
 const addButton = document.getElementById('addButton');
 
-addButton.addEventListener('click', async () => {
+addButton.addEventListener('click', async (e) => {
+    console.log(nameInput.value)
+    console.log(e)
+    e.preventDefault()
     try {
         await create(nameInput.value, ageInput.value, emailInput.value, phoneInput.value);
     } catch (error) {
