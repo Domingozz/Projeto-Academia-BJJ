@@ -136,6 +136,7 @@ body {
   height: 30px;
   width: 30%;
   border: solid white 2px;
+  color: white;
 }
 
 .form-container input::placeholder {
